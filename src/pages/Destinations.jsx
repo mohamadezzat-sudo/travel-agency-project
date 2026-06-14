@@ -1,5 +1,6 @@
 import { destinations } from '@data/destinations';
 import { DestCard } from '@/components/DestCard';
+
 export const Destinations = () => {
   return (
     <main className='container mx-auto px-4 py-8 mb-auto'>

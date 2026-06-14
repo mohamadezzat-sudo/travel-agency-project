@@ -31,16 +31,12 @@ export const About = () => {
 							className='rounded-box shadow-md'
 						/>
 					</section>
-					<section className='bg-base-200 p-6 rounded-box'>
-						<h2 className='text-2xl font-semibold mb-4 text-primary'>
-							Our Mission
-						</h2>
-						<p>
-							To connect SE students through shared travel adventures, fostering
-							learning, friendships, and unforgettable memories — all while
-							staying budget-friendly.
-						</p>
-					</section>
+<div className="bg-base-200 p-8 rounded-2xl shadow-sm border border-slate-200 mt-10">
+  <h2 className="text-primary text-2xl font-bold mb-4">Our Mission</h2>
+  <p className="text-slate-600">
+    To connect SE students through shared travel adventures, fostering learning, friendships, and unforgettable memories — all while staying budget-friendly.
+  </p>
+</div>
 				</div>
 			</main>
 		</div>
