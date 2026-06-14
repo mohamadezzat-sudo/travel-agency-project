@@ -1,6 +1,6 @@
 import { destinations } from '../data/destinations';
-import DestCard from './DestCard';
-const PopDests = () => {
+import { DestCard } from './DestCard';
+export const PopDests = () => {
 	return (
 		<section className='space-y-6 px-4'>
 			<h2 className='text-3xl font-bold text-secondary text-center'>
@@ -15,4 +15,3 @@ const PopDests = () => {
 	);
 };
 
-export default PopDests;

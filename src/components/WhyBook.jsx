@@ -1,4 +1,4 @@
-const WhyBook = () => {
+export const WhyBook = () => {
   return (
     <section className='text-center space-y-6 px-4'>
       <h2 className='text-3xl font-bold text-secondary'>Why Book With Us?</h2>
@@ -20,4 +20,3 @@ const WhyBook = () => {
   );
 };
 
-export default WhyBook;

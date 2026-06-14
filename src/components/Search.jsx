@@ -1,4 +1,4 @@
-const Search = () => {
+export const Search = () => {
   const handleSearch = e => {
     e.preventDefault();
   };
@@ -26,4 +26,3 @@ const Search = () => {
   );
 };
 
-export default Search;

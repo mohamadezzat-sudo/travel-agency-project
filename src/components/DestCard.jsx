@@ -1,4 +1,5 @@
-const DestinationCard = ({ title, image, text, slug }) => {
+import { Link } from 'react-router-dom';
+export const DestCard = ({ title, image, text, slug }) => {
   return (
     <div className='card bg-base-100 shadow-md'>
       <figure>
@@ -14,4 +15,3 @@ const DestinationCard = ({ title, image, text, slug }) => {
   );
 };
 
-export default DestinationCard;

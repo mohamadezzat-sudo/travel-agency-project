@@ -1,10 +1,6 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
-const Contact = () => {
+ export const Contact = () => {
 	return (
 		<div className='flex flex-col min-h-screen'>
-			<Navbar />
 			<main className='container mx-auto px-4 py-8 mb-auto'>
 				<div className='max-w-2xl mx-auto space-y-10'>
 					<section className='text-center'>
@@ -55,9 +51,7 @@ const Contact = () => {
 					</form>
 				</div>
 			</main>
-			<Footer />
 		</div>
 	);
 };
 
-export default Contact;

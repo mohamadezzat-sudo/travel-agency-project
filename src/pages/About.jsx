@@ -1,10 +1,6 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
-const About = () => {
+export const About = () => {
 	return (
 		<div className='flex flex-col min-h-screen'>
-			<Navbar />
 			<main className='container mx-auto px-4 py-8 mb-auto'>
 				<div className='space-y-10'>
 					<section className='text-center'>
@@ -47,9 +43,7 @@ const About = () => {
 					</section>
 				</div>
 			</main>
-			<Footer />
 		</div>
 	);
 };
 
-export default About;
